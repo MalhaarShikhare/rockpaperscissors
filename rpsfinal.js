@@ -39,8 +39,8 @@ const score=JSON.parse(localStorage.getItem('score'))||{
        z.innerHTML=`You ${result} the game!.`
        const x=document.querySelector('.js-choice')
       x.innerHTML=` You
-      <img src="/pics/${choices[userChoice - 1]}-emoji.png" alt="" class="c">
-      <img src="/pics/${computerChoice}-emoji.png" alt="" class="c">
+      <img src="${choices[userChoice - 1]}-emoji.png" alt="" class="c">
+      <img src="${computerChoice}-emoji.png" alt="" class="c">
       Computer `
       const y=document.querySelector('.js-score')
       y.innerHTML= `Wins:${score.wins},Loss: ${score.losses}.Ties :${score.ties}.`
