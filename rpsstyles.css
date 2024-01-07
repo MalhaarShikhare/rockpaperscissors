@@ -1,0 +1,40 @@
+.icon{
+    height: 40px;
+}
+body{
+    background-color: black;
+}
+.txt{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+.c{
+    height: 40px;
+}
+.x{
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    background-color: red;
+    border: none;
+    height: 45px;
+    width: 100px;
+    border-radius: 19px;
+    margin-top: 4px;
+    padding: 10px;
+    font-size: 13px;
+}
+p{
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    background-color: transparent;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+     border: 2px solid white;
+     margin-right: 7px;
+     cursor: pointer;
+}
+
