@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/javascript/RPS/rpsstyles.css">
+</head>
+<body>
+    <div>
+        <p class="txt">Rock Paper Scissors</p>
+       <div>
+        <button onclick="rand(1);" >
+            <img src="/javascript/RPS/rock-emoji.png" alt="" class="icon"></button>
+        <button onclick="rand(2);">
+        <img src="/javascript/RPS/paper-emoji.png" alt="" class="icon"></button>
+        <button onclick="rand(3);">
+            <img src="/javascript/RPS/scissors-emoji.png" alt="" class="icon"></button>
+       </div>
+        
+        <p class="js-result"></p>
+        <p class="js-choice">
+        </p>
+        <p class="js-score"></p>
+        <button  class="x" onclick="reset();">Reset score</button>
+  
+    </div>
+    <script src="/javascript/RPS/rpsfinal.js">
+    </script>
+</body>
+</html>
